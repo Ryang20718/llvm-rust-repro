@@ -1,4 +1,4 @@
-LLVM 20 + Rust 1.87 macro coverage bug
+LLVM 20.1 + Rust 1.87 macro coverage bug
 
 To repro, install bazelisk
 ```
