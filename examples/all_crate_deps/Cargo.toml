@@ -1,0 +1,13 @@
+[workspace]
+[package]
+name = "all_crate_deps"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[lib]
+path = "fake.rs"
+
+[dependencies]
+anyhow = "1.0.79"
+log = { version = "=0.4.17", features = ["kv_unstable", "kv_unstable_serde"] } # logging macros
